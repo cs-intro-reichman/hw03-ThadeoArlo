@@ -1,0 +1,284 @@
+{
+    "tests": [
+    {
+    "name": "lowercase test 1",
+    "setup": "javac lowercase.java",
+    "run": "java lowercase B2C",
+    "input": "",
+    "output": "b2c",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 1.5
+    },
+    {
+      "name": "lowercase test 2",
+      "setup": "javac lowercase.java",
+      "run": "java lowercase \"TLV to LA: 15 Hours.\"",
+      "input": "",
+      "output": "tlv to la: 15 hours.",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1.5
+    },
+    {
+        "name": "lowercase test 3",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase HelloWorld",
+        "input": "",
+        "output": "helloworld",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 4",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"JavaROCKS!\"",
+        "input": "",
+        "output": "javarocks!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 5",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"ThIs Is SoMeTeXt.\"",
+        "input": "",
+        "output": "this is sometext.",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 6",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase TheQuickBrownFox",
+        "input": "",
+        "output": "thequickbrownfox",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 7",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"JUMPsOverTheLazyDog!\"",
+        "input": "",
+        "output": "jumpsoverthelazydog!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 8",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase XYZ@123",
+        "input": "",
+        "output": "xyz@123",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 9",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"mIXEdCaSE+Symbols\"",
+        "input": "",
+        "output": "mixedcase+symbols",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "lowercase test 10",
+        "setup": "javac lowercase.java",
+        "run": "java lowercase \"AaBbCcDdEe\"",
+        "input": "",
+        "output": "aabbccdde",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 1",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars programming",
+        "input": "",
+        "output": "progamin",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 2",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars \"alphabet soup\"",
+        "input": "",
+        "output": "alphbet sou",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 3",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars repetition",
+        "input": "",
+        "output": "reption",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 4",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars elephant",
+        "input": "",
+        "output": "elphant",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 5",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars \"umbrella academy\"",
+        "input": "",
+        "output": "umbrela cady",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 6",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars \"back to the future\"",
+        "input": "",
+        "output": "back to he fur",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 7",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars impossible",
+        "input": "",
+        "output": "imposble",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 8",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars \"!@#$%^&*()!@#$%^&*()\"",
+        "input": "",
+        "output": "!@#$%^&*()",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 9",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars pineapple",
+        "input": "",
+        "output": "pineapl",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+        "name": "uniquechars test 10",
+        "setup": "javac uniquechars.java",
+        "run": "java uniquechars \"a quick brown fox\"",
+        "input": "",
+        "output": "a quick brown fx",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 1.5
+    },
+    {
+    "name": "LoanCalc Test with Loan Sum 100000, Interest Rate 3%, and Periods 12",
+    "setup": "javac LoanCalc.java",
+    "run": "java LoanCalc 100000 3 12",
+    "input": "",
+    "output": "Loan sum = 100000.0, interest rate = 3.0%, periods = 12\nPeriodical payment, using brute force: 9753.60\nnumber of iterations: 1420268\nPeriodical payment, using bi-section search: 9753.60\nnumber of iterations: 27",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+    },
+    {
+    "name": "LoanCalc Test with Loan Sum 75000, Interest Rate 4%, and Periods 24",
+    "setup": "javac LoanCalc.java",
+    "run": "java LoanCalc 75000 4 24",
+    "input": "",
+    "output": "Loan sum = 75000.0, interest rate = 4.0%, periods = 24\nPeriodical payment, using brute force: 4729.82\nnumber of iterations: 1604820\nPeriodical payment, using bi-section search: 4729.82\nnumber of iterations: 27",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+    },
+    {
+    "name": "LoanCalc Test with Loan Sum 50000, Interest Rate 5%, and Periods 36",
+    "setup": "javac LoanCalc.java",
+    "run": "java LoanCalc 50000 5 36",
+    "input": "",
+    "output": "Loan sum = 50000.0, interest rate = 5.0%, periods = 36\nPeriodical payment, using brute force: 2877.83\nnumber of iterations: 1488943\nPeriodical payment, using bi-section search: 2877.83\nnumber of iterations: 26",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+    },
+    {
+    "name": "LoanCalc Test with Loan Sum 120000, Interest Rate 3.5%, and Periods 60",
+    "setup": "javac LoanCalc.java",
+    "run": "java LoanCalc 120000 3.5 60",
+    "input": "",
+    "output": "Loan sum = 120000.0, interest rate = 3.5%, periods = 60\nPeriodical payment, using brute force: 4647.96\nnumber of iterations: 2647957\nPeriodical payment, using bi-section search: 4647.96\nnumber of iterations: 27",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+    },
+    {
+    "name": "Calendar0 Test for Year 2023",
+    "setup": "javac Calendar0.java",
+    "run": "java Calendar0 2023",
+    "input": "",
+    "output": "2023 is a common year\nMonth 1 has 31 days\nMonth 2 has 28 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 5
+    },
+    {
+    "name": "Calendar0 Test for Year 2024 (Leap Year)",
+    "setup": "javac Calendar0.java",
+    "run": "java Calendar0 2024",
+    "input": "",
+    "output": "2024 is a leap year\nMonth 1 has 31 days\nMonth 2 has 29 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 5
+    },
+    {
+    "name": "Calendar0 Test for Year 2000 (Leap Year)",
+    "setup": "javac Calendar0.java",
+    "run": "java Calendar0 2000",
+    "input": "",
+    "output": "2000 is a leap year\nMonth 1 has 31 days\nMonth 2 has 29 days\nMonth 3 has 31 days\nMonth 4 has 30 days\nMonth 5 has 31 days\nMonth 6 has 30 days\nMonth 7 has 31 days\nMonth 8 has 31 days\nMonth 9 has 30 days\nMonth 10 has 31 days\nMonth 11 has 30 days\nMonth 12 has 31 days",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 5
+    },
+    {
+    "name": "Calendar1 Test",
+    "setup": "javac Calendar1.java",
+    "run": "java Calendar1",
+    "input": "",
+    "output": "During the 20th century, 172 Sundays fell on the first day of the month",
+    "comparison": "included",
+    "timeout": 15,
+    "points": 15
+    }
+    ]
+}
