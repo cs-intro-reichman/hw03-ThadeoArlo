@@ -8,16 +8,16 @@ public class Calendar {
 	public static void main(String asdf[]) {
 		int yearIn = Integer.parseInt(asdf[0]);
 	 	while (year <= yearIn) {
+			advance();
 			if (year == yearIn) {
 				if (dayOfWeek==1) {
 					System.out.println(dayOfMonth+"/"+month+"/"+year+" Sunday");
 				} else System.out.println(dayOfMonth+"/"+month+"/"+year);
 			}
-	 		advance();
 		}
 	 }
 
-	 private static void advance() {
+	private static void advance() {
 		dayOfMonth++;
 		dayOfWeek++;
 		if (dayOfWeek > 7) dayOfWeek = 1;
